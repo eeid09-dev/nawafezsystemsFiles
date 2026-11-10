@@ -1,1 +1,258 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قريباً | موقعنا الجديد</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        /* إعدادات عامة */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        body {
+            /* خلفية بيضاء هادئة مع تدرج رمادي فاتح جداً */
+            background: #fcfcfc;
+            background: linear-gradient(135deg, #ffffff 0%, #f4f4f5 100%);
+            color: #333333;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* خلفية متحركة خفيفة جداً */
+        .bg-animation {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: url('https://www.transparenttextures.com/patterns/cubes.png');
+            opacity: 0.03;
+            /* شفافية عالية جداً لتبدو هادئة */
+            z-index: -1;
+            animation: moveBg 30s linear infinite;
+        }
+
+        @keyframes moveBg {
+            0% {
+                background-position: 0 0;
+            }
+
+            100% {
+                background-position: 100px 100px;
+            }
+        }
+
+        /* الحاوية الأساسية (تأثير الزجاج الأبيض) */
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid #eaeaea;
+            padding: 50px 40px;
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.04);
+            /* ظل خفيف جداً */
+            max-width: 600px;
+            width: 90%;
+            animation: fadeIn 1.2s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            margin-bottom: 15px;
+            /* تدرج أحمر أنيق */
+            background: -webkit-linear-gradient(45deg, #e53935, #b71c1c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 2px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #666666;
+            margin-bottom: 40px;
+            line-height: 1.6;
+            font-weight: 700;
+        }
+
+        /* العداد التنازلي */
+        .countdown {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .time-box {
+            background: #ffffff;
+            padding: 15px;
+            border-radius: 16px;
+            min-width: 85px;
+            border: 1px solid #f0f0f0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+        }
+
+        .time-box span {
+            display: block;
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: #e53935;
+            /* اللون الأحمر المميز */
+        }
+
+        .time-box small {
+            font-size: 0.9rem;
+            color: #888888;
+            font-weight: 700;
+        }
+
+        /* أيقونات التواصل */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-icons a {
+            color: #666666;
+            background: #f5f5f5;
+            width: 45px;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            background: #e53935;
+            /* يتحول للأحمر عند الوقوف عليه */
+            color: #ffffff;
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(229, 57, 53, 0.3);
+        }
+
+        /* التجاوب مع الموبايل */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .countdown {
+                flex-wrap: wrap;
+            }
+
+            .time-box {
+                min-width: 70px;
+                padding: 10px;
+            }
+
+            .time-box span {
+                font-size: 1.6rem;
+            }
+
+            .container {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- خلفية متحركة -->
+    <div class="bg-animation"></div>
+
+    <!-- المحتوى -->
+    <div class="container">
+        <h1>Coming Soon</h1>
+        <p>نحن نعمل على شيء مذهل! موقعنا الجديد قادم قريباً جداً. ترقبوا الإطلاق.</p>
+
+        <!-- العداد التنازلي -->
+        <div class="countdown">
+            <div class="time-box">
+                <span id="days">00</span>
+                <small>يوم</small>
+            </div>
+            <div class="time-box">
+                <span id="hours">00</span>
+                <small>ساعة</small>
+            </div>
+            <div class="time-box">
+                <span id="minutes">00</span>
+                <small>دقيقة</small>
+            </div>
+            <div class="time-box">
+                <span id="seconds">00</span>
+                <small>ثانية</small>
+            </div>
+        </div>
+
+        <!-- روابط التواصل (تقدر تغيرها لروابطك) -->
+        <div class="social-icons">
+            <a href="#" title="فيسبوك">f</a>
+            <a href="#" title="تويتر">x</a>
+            <a href="#" title="انستجرام">in</a>
+        </div>
+    </div>
+
+    <!-- سكريبت العداد التنازلي -->
+    <script>
+        // حدد تاريخ الإطلاق هنا (السنة، الشهر - يبدأ من 0، اليوم)
+        // مثلاً ده تاريخ 1 يناير 2028
+        const launchDate = new Date("Jan 1, 2028 00:00:00").getTime();
+
+        const timer = setInterval(function () {
+            const now = new Date().getTime();
+            const distance = launchDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerText = days < 10 ? "0" + days : days;
+            document.getElementById("hours").innerText = hours < 10 ? "0" + hours : hours;
+            document.getElementById("minutes").innerText = minutes < 10 ? "0" + minutes : minutes;
+            document.getElementById("seconds").innerText = seconds < 10 ? "0" + seconds : seconds;
+
+            // لو العداد خلص
+            if (distance < 0) {
+                clearInterval(timer);
+                document.querySelector(".countdown").innerHTML = "<h2 style='color:#e53935; font-weight:900;'>انطلقنا! 🚀</h2>";
+            }
+        }, 1000);
+    </script>
+</body>
+
+</html>
