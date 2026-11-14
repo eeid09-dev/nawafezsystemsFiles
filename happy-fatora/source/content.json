@@ -1,0 +1,667 @@
+{
+ "brand": [
+  "هابي فاتورة",
+  "Happy Fatora",
+  "Happy Fatora"
+ ],
+ "tag": [
+  "كل محلك في جيبك",
+  "Your whole shop in your pocket",
+  "Toute votre boutique dans la poche"
+ ],
+ "n1": [
+  "المميزات",
+  "Features",
+  "Fonctionnalités"
+ ],
+ "n2": [
+  "لقطات الشاشة",
+  "Screenshots",
+  "Captures"
+ ],
+ "n3": [
+  "كيف يعمل",
+  "How it works",
+  "Comment ça marche"
+ ],
+ "n4": [
+  "الأسعار",
+  "Pricing",
+  "Tarifs"
+ ],
+ "n5": [
+  "الأسئلة الشائعة",
+  "FAQ",
+  "FAQ"
+ ],
+ "dl": [
+  "حمّل التطبيق",
+  "Download app",
+  "Télécharger"
+ ],
+ "wa": [
+  "تواصل عبر واتساب",
+  "Chat on WhatsApp",
+  "Écrire sur WhatsApp"
+ ],
+ "badge": [
+  "ERP مصغّر لإدارة المحلات",
+  "A compact ERP for shops",
+  "Un ERP compact pour commerces"
+ ],
+ "t1": [
+  "كل محلك في جيبك..",
+  "Your whole shop in your pocket..",
+  "Toute votre boutique dans la poche.."
+ ],
+ "t2": [
+  "فواتير ومخزون وحسابات بدون إنترنت",
+  "invoices, stock & accounts, even offline",
+  "factures, stock et comptes, même hors ligne"
+ ],
+ "sub": [
+  "هابي فاتورة تطبيق متكامل لإدارة المحلات: المبيعات والمشتريات والمخزون والعملاء والموردين والتقارير، بتصميم عصري وسهل يناسب أي نشاط.",
+  "Happy Fatora is an all-in-one app to run your shop: sales, purchases, inventory, customers, suppliers and reports, in a modern and simple design.",
+  "Happy Fatora est une application tout-en-un pour gérer votre commerce : ventes, achats, stock, clients, fournisseurs et rapports, dans un design moderne et simple."
+ ],
+ "s1": [
+  "قسم متكامل",
+  "Modules",
+  "Modules"
+ ],
+ "s2": [
+  "لغات",
+  "Languages",
+  "Langues"
+ ],
+ "s3": [
+  "عملة مدعومة",
+  "Currencies supported",
+  "Devises prises en charge"
+ ],
+ "chip1": [
+  "تم حفظ الفاتورة",
+  "Invoice saved",
+  "Facture enregistrée"
+ ],
+ "ft": [
+  "كل ما يحتاجه محلك في تطبيق واحد",
+  "Everything your shop needs, in one app",
+  "Tout ce dont votre commerce a besoin, en une app"
+ ],
+ "fs": [
+  "أدوات احترافية بسيطة الاستخدام تختصر وقتك وتضبط حساباتك",
+  "Professional, easy tools that save time and keep your books right",
+  "Des outils pros et simples qui font gagner du temps et sécurisent vos comptes"
+ ],
+ "f1t": [
+  "المبيعات والفواتير",
+  "Sales & invoices",
+  "Ventes et factures"
+ ],
+ "f1d": [
+  "أنشئ فاتورة في ثوانٍ مع السلة والخصم والضريبة، واطبعها أو صدّرها PDF.",
+  "Create invoices in seconds with cart, discount and tax, then print or export to PDF.",
+  "Créez une facture en quelques secondes avec panier, remise et taxe, puis imprimez ou exportez en PDF."
+ ],
+ "f2t": [
+  "المخزون والدفعات",
+  "Inventory & batches",
+  "Stock et lots"
+ ],
+ "f2d": [
+  "تتبّع الكميات والدفعات، مع تنبيهات المنتجات المنخفضة والتالفة ومنتهية الصلاحية.",
+  "Track quantities and batches, with alerts for low, damaged and expired items.",
+  "Suivez quantités et lots, avec alertes pour stock bas, produits abîmés ou périmés."
+ ],
+ "f3t": [
+  "العملاء والموردون",
+  "Customers & suppliers",
+  "Clients et fournisseurs"
+ ],
+ "f3d": [
+  "سجل كامل للمعاملات والديون والمدفوعات لكل عميل ومورد.",
+  "Full history of transactions, debts and payments for every customer and supplier.",
+  "Historique complet des transactions, dettes et paiements pour chaque client et fournisseur."
+ ],
+ "f4t": [
+  "المشتريات والمرتجعات",
+  "Purchases & returns",
+  "Achats et retours"
+ ],
+ "f4d": [
+  "سجّل المشتريات ومرتجعات البيع والشراء وارتبط بالفاتورة الأصلية تلقائيًا.",
+  "Record purchases plus sales and purchase returns, linked to the original invoice.",
+  "Enregistrez achats et retours, liés automatiquement à la facture d'origine."
+ ],
+ "f5t": [
+  "باركود و QR",
+  "Barcode & QR",
+  "Code-barres et QR"
+ ],
+ "f5d": [
+  "أنشئ واطبع ملصقات الباركود وQR لمنتجاتك واستخدمها في البيع السريع.",
+  "Generate and print barcode and QR labels, and use them for fast checkout.",
+  "Générez et imprimez des étiquettes code-barres et QR pour une vente rapide."
+ ],
+ "f6t": [
+  "تقارير وإحصائيات",
+  "Reports & analytics",
+  "Rapports et statistiques"
+ ],
+ "f6d": [
+  "تقارير المبيعات والمشتريات والمخزون والضرائب والتقرير المالي مع تصدير سهل.",
+  "Sales, purchases, inventory, tax and financial reports with easy export.",
+  "Rapports ventes, achats, stock, taxes et financiers avec export facile."
+ ],
+ "f7t": [
+  "المصروفات والنقدية",
+  "Expenses & cash",
+  "Dépenses et trésorerie"
+ ],
+ "f7d": [
+  "راقب المصروفات والإيرادات والرصيد النقدي لتعرف أرباحك لحظة بلحظة.",
+  "Monitor expenses, income and cash balance to know your profit at any moment.",
+  "Suivez dépenses, revenus et solde de caisse pour connaître vos bénéfices à tout moment."
+ ],
+ "f8t": [
+  "مصمم الفاتورة",
+  "Invoice designer",
+  "Éditeur de facture"
+ ],
+ "f8d": [
+  "خصص الشعار والألوان والخطوط والأعمدة، وصدّر PDF وJPG وPNG وHTML.",
+  "Customize logo, colors, fonts and columns, then export PDF, JPG, PNG or HTML.",
+  "Personnalisez logo, couleurs, polices et colonnes, puis exportez en PDF, JPG, PNG ou HTML."
+ ],
+ "sct": [
+  "شاهد التطبيق من الداخل",
+  "See the app inside",
+  "Découvrez l'application"
+ ],
+ "scs": [
+  "واجهة عصرية وسريعة تدعم العربية والإنجليزية والفرنسية والوضع الداكن",
+  "A fast, modern interface in Arabic, English and French, with dark mode",
+  "Une interface rapide et moderne en arabe, anglais et français, avec mode sombre"
+ ],
+ "c1": [
+  "إنشاء فاتورة بيع",
+  "Create a sale",
+  "Créer une vente"
+ ],
+ "c2": [
+  "إدارة المخزون",
+  "Inventory",
+  "Gestion du stock"
+ ],
+ "c3": [
+  "طباعة QR",
+  "QR printing",
+  "Impression QR"
+ ],
+ "c4": [
+  "معاينة الفاتورة",
+  "Invoice preview",
+  "Aperçu de facture"
+ ],
+ "c5": [
+  "تقرير المبيعات",
+  "Sales report",
+  "Rapport des ventes"
+ ],
+ "c6": [
+  "النقدية",
+  "Cash overview",
+  "Trésorerie"
+ ],
+ "c7": [
+  "إحصائيات العميل",
+  "Customer insights",
+  "Statistiques client"
+ ],
+ "c8": [
+  "القائمة الرئيسية",
+  "Main menu",
+  "Menu principal"
+ ],
+ "ht": [
+  "من البيع للفاتورة في 4 خطوات",
+  "From sale to invoice in 4 steps",
+  "De la vente à la facture en 4 étapes"
+ ],
+ "hs": [
+  "مسار بسيط وسريع حتى لو لم تستخدم برامج محاسبة من قبل",
+  "A quick, simple flow even if you never used accounting software",
+  "Un parcours simple et rapide, même sans expérience comptable"
+ ],
+ "h1t": [
+  "اختر العميل والمنتجات",
+  "Pick customer & products",
+  "Choisissez client et produits"
+ ],
+ "h1d": [
+  "ابحث بالاسم أو امسح الباركود وأضف للسلة.",
+  "Search by name or scan a barcode and add to cart.",
+  "Recherchez par nom ou scannez le code-barres et ajoutez au panier."
+ ],
+ "h2t": [
+  "حدّد الكمية والسعر",
+  "Set quantity & price",
+  "Définissez quantité et prix"
+ ],
+ "h2d": [
+  "أزرار سريعة للكميات واختيار الدفعة من المخزون.",
+  "Quick quantity buttons and batch selection from stock.",
+  "Boutons rapides de quantité et choix du lot en stock."
+ ],
+ "h3t": [
+  "سجّل الدفع",
+  "Record payment",
+  "Enregistrez le paiement"
+ ],
+ "h3d": [
+  "نقدًا أو أقساط، مدفوع أو جزئي أو معلّق.",
+  "Cash or installments: paid, partial or pending.",
+  "Espèces ou échéances : payé, partiel ou en attente."
+ ],
+ "h4t": [
+  "اطبع أو صدّر PDF",
+  "Print or export PDF",
+  "Imprimez ou exportez en PDF"
+ ],
+ "h4d": [
+  "فاتورة احترافية جاهزة للطباعة أو المشاركة فورًا.",
+  "A professional invoice ready to print or share instantly.",
+  "Une facture pro prête à imprimer ou partager aussitôt."
+ ],
+ "pt": [
+  "اختر الباقة المناسبة",
+  "Choose your plan",
+  "Choisissez votre offre"
+ ],
+ "ps": [
+  "ابدأ مجانًا وطوّر وقتما تحتاج",
+  "Start free and upgrade when you need",
+  "Commencez gratuitement, évoluez quand vous voulez"
+ ],
+ "pf": [
+  "رخصة مجانية",
+  "Free license",
+  "Licence gratuite"
+ ],
+ "pfd": [
+  "للبدء وتجربة أساسيات إدارة المبيعات",
+  "To start and try the sales basics",
+  "Pour démarrer et essayer les bases de la vente"
+ ],
+ "free": [
+  "مجانًا",
+  "Free",
+  "Gratuit"
+ ],
+ "pb1": [
+  "المبيعات والفواتير والعملاء",
+  "Sales, invoices & customers",
+  "Ventes, factures et clients"
+ ],
+ "pb2": [
+  "إدارة المنتجات والمخزون",
+  "Products & inventory",
+  "Produits et stock"
+ ],
+ "pb3": [
+  "يحتاج اتصالًا بالإنترنت وتظهر إعلانات",
+  "Needs internet and shows ads",
+  "Internet requis, avec publicités"
+ ],
+ "pbtn": [
+  "ابدأ مجانًا",
+  "Start free",
+  "Commencer gratuitement"
+ ],
+ "py": [
+  "الخطة السنوية",
+  "Annual plan",
+  "Offre annuelle"
+ ],
+ "pyd": [
+  "سنة واحدة",
+  "One year",
+  "Un an"
+ ],
+ "yr": [
+  "/ سنة",
+  "/ year",
+  "/ an"
+ ],
+ "p3": [
+  "خطة 3 سنوات",
+  "3-year plan",
+  "Offre 3 ans"
+ ],
+ "p3d": [
+  "الأوفر والأكثر شيوعًا",
+  "Best value & most popular",
+  "Meilleur rapport, la plus choisie"
+ ],
+ "y3": [
+  "/ 3 سنوات",
+  "/ 3 years",
+  "/ 3 ans"
+ ],
+ "pop": [
+  "الأكثر شيوعًا",
+  "Most popular",
+  "La plus populaire"
+ ],
+ "pp1": [
+  "تشمل جميع الميزات",
+  "All features included",
+  "Toutes les fonctionnalités"
+ ],
+ "pp2": [
+  "يعمل دون إنترنت",
+  "Works offline",
+  "Fonctionne hors ligne"
+ ],
+ "pp3": [
+  "بدون إعلانات",
+  "No ads",
+  "Sans publicité"
+ ],
+ "pp4": [
+  "دعم مميز",
+  "Premium support",
+  "Support premium"
+ ],
+ "psub": [
+  "اشترك الآن",
+  "Subscribe now",
+  "S'abonner"
+ ],
+ "qt": [
+  "الأسئلة الشائعة",
+  "Frequently asked questions",
+  "Questions fréquentes"
+ ],
+ "q1": [
+  "هل يعمل التطبيق بدون إنترنت؟",
+  "Does it work offline?",
+  "Fonctionne-t-il hors ligne ?"
+ ],
+ "a1": [
+  "النسخة المدفوعة تعمل بالكامل دون إنترنت وبدون إعلانات، أما المجانية فتحتاج اتصالًا وتعرض إعلانات.",
+  "The paid plan works fully offline with no ads; the free license needs internet and shows ads.",
+  "L'offre payante fonctionne totalement hors ligne et sans pub ; la licence gratuite nécessite internet et affiche des pubs."
+ ],
+ "q2": [
+  "ما اللغات المدعومة؟",
+  "Which languages are supported?",
+  "Quelles langues sont prises en charge ?"
+ ],
+ "a2": [
+  "العربية والإنجليزية والفرنسية، مع الوضعين الفاتح والداكن.",
+  "Arabic, English and French, with light and dark modes.",
+  "Arabe, anglais et français, avec modes clair et sombre."
+ ],
+ "q3": [
+  "هل أستطيع طباعة الفواتير بشعاري؟",
+  "Can I print invoices with my logo?",
+  "Puis-je imprimer mes factures avec mon logo ?"
+ ],
+ "a3": [
+  "نعم، يمكنك تخصيص الشعار والألوان والخطوط وأعمدة الفاتورة والتصدير بعدة صيغ.",
+  "Yes, customize logo, colors, fonts and columns, and export in several formats.",
+  "Oui, personnalisez logo, couleurs, polices et colonnes, et exportez en plusieurs formats."
+ ],
+ "q4": [
+  "كيف أشترك في الباقة المدفوعة؟",
+  "How do I get a paid plan?",
+  "Comment souscrire à une offre payante ?"
+ ],
+ "a4": [
+  "تواصل معنا عبر واتساب وسنفعّل لك الترخيص فورًا.",
+  "Message us on WhatsApp and we will activate your license right away.",
+  "Écrivez-nous sur WhatsApp et nous activerons votre licence immédiatement."
+ ],
+ "ct": [
+  "جاهز لتنظيم محلك؟",
+  "Ready to organize your shop?",
+  "Prêt à organiser votre commerce ?"
+ ],
+ "cs": [
+  "حمّل هابي فاتورة وابدأ مجانًا اليوم",
+  "Download Happy Fatora and start free today",
+  "Téléchargez Happy Fatora et commencez gratuitement"
+ ],
+ "rights": [
+  "جميع الحقوق محفوظة ل",
+  "All rights reserved to",
+  "Tous droits réservés à"
+ ],
+ "co": [
+  "نوافذ سيستمز",
+  "Nawafez Systems",
+  "Nawafez Systems"
+ ],
+ "chip3": [
+  "باركود جاهز",
+  "Barcode ready",
+  "Code-barres prêt"
+ ],
+ "sl1": [
+  "عملة مدعومة",
+  "Currencies supported",
+  "Devises prises en charge"
+ ],
+ "sl2": [
+  "لغات",
+  "Languages",
+  "Langues"
+ ],
+ "sl3": [
+  "قسم متكامل",
+  "Integrated modules",
+  "Modules intégrés"
+ ],
+ "sl4": [
+  "منصات: Android وiOS وWindows",
+  "Platforms: Android, iOS, Windows",
+  "Plateformes : Android, iOS, Windows"
+ ],
+ "u1": [
+  "سوبر ماركت",
+  "Supermarkets",
+  "Supermarchés"
+ ],
+ "u2": [
+  "صيدليات",
+  "Pharmacies",
+  "Pharmacies"
+ ],
+ "u3": [
+  "مطاعم وكافيهات",
+  "Restaurants & cafés",
+  "Restaurants et cafés"
+ ],
+ "u4": [
+  "تجار الجملة",
+  "Wholesalers",
+  "Grossistes"
+ ],
+ "u5": [
+  "مستودعات",
+  "Warehouses",
+  "Entrepôts"
+ ],
+ "u6": [
+  "محلات تجارية",
+  "Retail shops",
+  "Commerces"
+ ],
+ "kt": [
+  "أمان وأداء بمستوى احترافي",
+  "Pro-grade security and performance",
+  "Sécurité et performance de niveau pro"
+ ],
+ "ks": [
+  "بياناتك محفوظة على جهازك وبأعلى درجات الحماية",
+  "Your data stays on your device, well protected",
+  "Vos données restent sur votre appareil, bien protégées"
+ ],
+ "k1t": [
+  "بصمة وكلمة مرور",
+  "Fingerprint & password",
+  "Empreinte et mot de passe"
+ ],
+ "k1d": [
+  "تسجيل دخول آمن ومصادقة بالبصمة لحماية نشاطك.",
+  "Secure sign-in with biometric authentication to protect your business.",
+  "Connexion sécurisée avec authentification biométrique pour protéger votre activité."
+ ],
+ "k2t": [
+  "نسخ احتياطي تلقائي",
+  "Automatic backup",
+  "Sauvegarde automatique"
+ ],
+ "k2d": [
+  "نسخ مجدول واستعادة سهلة، مع Google Drive في الباقة المدفوعة.",
+  "Scheduled backups and easy restore, plus Google Drive in the paid plan.",
+  "Sauvegardes planifiées et restauration facile, avec Google Drive en offre payante."
+ ],
+ "k3t": [
+  "قاعدة بيانات محلية",
+  "Local database",
+  "Base de données locale"
+ ],
+ "k3d": [
+  "أداء سريع بقاعدة SQLite وبياناتك على جهازك.",
+  "Fast SQLite performance with your data on your device.",
+  "Performance rapide avec SQLite et vos données sur votre appareil."
+ ],
+ "k4t": [
+  "طباعة حرارية وA4",
+  "Thermal & A4 printing",
+  "Impression thermique et A4"
+ ],
+ "k4d": [
+  "دعم طابعات 58 و80 مم وطباعة A4 وتصدير PDF وصور.",
+  "Supports 58/80 mm thermal printers, A4, PDF and image export.",
+  "Imprimantes thermiques 58/80 mm, A4, export PDF et image."
+ ],
+ "k5t": [
+  "أكثر من 150 عملة",
+  "150+ currencies",
+  "Plus de 150 devises"
+ ],
+ "k5d": [
+  "اعمل بعملتك المحلية مع الضرائب والخصومات التلقائية.",
+  "Work in your local currency with automatic tax and discounts.",
+  "Travaillez dans votre devise avec taxes et remises automatiques."
+ ],
+ "k6t": [
+  "ترخيص محمي",
+  "Protected licensing",
+  "Licence protégée"
+ ],
+ "k6d": [
+  "حماية من المحاكيات وتشفير للبيانات الحساسة.",
+  "Emulator protection and encryption for sensitive data.",
+  "Protection contre les émulateurs et chiffrement des données sensibles."
+ ],
+ "rt": [
+  "قريبًا في هابي فاتورة",
+  "Coming soon to Happy Fatora",
+  "Bientôt dans Happy Fatora"
+ ],
+ "rs": [
+  "التطوير مستمر بتحديثات وميزات جديدة",
+  "Continuous development with new updates and features",
+  "Développement continu avec de nouvelles mises à jour"
+ ],
+ "soon": [
+  "قريبًا",
+  "Soon",
+  "Bientôt"
+ ],
+ "r1t": [
+  "تطبيق ويب",
+  "Web app",
+  "Application web"
+ ],
+ "r1d": [
+  "وصول من أي جهاز عبر المتصفح.",
+  "Access from any device via browser.",
+  "Accès depuis tout appareil via le navigateur."
+ ],
+ "r2t": [
+  "الفروع المتعددة",
+  "Multiple branches",
+  "Multi-succursales"
+ ],
+ "r2d": [
+  "إدارة أكثر من فرع من مكان واحد.",
+  "Manage several branches from one place.",
+  "Gérez plusieurs succursales depuis un seul endroit."
+ ],
+ "r3t": [
+  "تقارير بالذكاء الاصطناعي",
+  "AI-powered reports",
+  "Rapports par IA"
+ ],
+ "r3d": [
+  "رؤى وتوصيات ذكية لنمو نشاطك.",
+  "Smart insights and tips to grow your business.",
+  "Analyses et conseils intelligents pour votre croissance."
+ ],
+ "r4t": [
+  "الموظفون والصلاحيات",
+  "Staff & permissions",
+  "Employés et permissions"
+ ],
+ "r4d": [
+  "حسابات للموظفين بصلاحيات متقدمة.",
+  "Staff accounts with advanced permissions.",
+  "Comptes employés avec permissions avancées."
+ ],
+ "c9": [
+  "اللغة والمظهر",
+  "Language & theme",
+  "Langue et thème"
+ ],
+ "c10": [
+  "تخصيص الفاتورة",
+  "Invoice settings",
+  "Réglages de facture"
+ ],
+ "c11": [
+  "ملخص المورد",
+  "Supplier overview",
+  "Fiche fournisseur"
+ ],
+ "c12": [
+  "المصروفات",
+  "Expenses",
+  "Dépenses"
+ ],
+ "c13": [
+  "طباعة الباركود",
+  "Barcode printing",
+  "Impression code-barres"
+ ],
+ "c14": [
+  "التراخيص",
+  "Licensing",
+  "Licences"
+ ],
+ "c15": [
+  "تفاصيل المنتج",
+  "Product details",
+  "Détails du produit"
+ ],
+ "c16": [
+  "المرتجعات",
+  "Returns",
+  "Retours"
+ ]
+}
