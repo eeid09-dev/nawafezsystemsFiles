@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-bs-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>هابي فاتورة | Happy Fatora</title>
+<meta name="description" content="Happy Fatora ERP">
+<meta name="theme-color" content="#4CAF50">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<script>
+/* Set language + theme before first paint (no flash). Bootstrap RTL/LTR build is chosen by language. */
+var LS={get:function(k){try{return localStorage.getItem(k)}catch(e){return null}},set:function(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+var LANG=LS.get('lang')||'ar';if(['ar','en','fr'].indexOf(LANG)<0)LANG='ar';
+var THEME=LS.get('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+document.documentElement.setAttribute('data-bs-theme',THEME);
+document.write('<link id="bs" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap'+(LANG==='ar'?'.rtl':'')+'.min.css">');
+</script>
+<style>
+:root{--g:#4CAF50;--g2:#2e7d32;--o:#FF9800;--card:#fff;--soft:#eef7ef;--line:#e3ece4}
+[data-bs-theme=dark]{--bs-body-bg:#0d1410;--bs-body-color:#e5eee7;--card:#151f19;--soft:#122019;--line:#24352b}
+body{font-family:Cairo,system-ui,sans-serif;overflow-x:hidden;scroll-behavior:smooth}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+.gt{background:linear-gradient(120deg,var(--g),#9be15d 55%,var(--o));-webkit-background-clip:text;background-clip:text;color:transparent}
+.btn-g{background:linear-gradient(135deg,var(--g),var(--g2));color:#fff;border:0;box-shadow:0 10px 24px -8px rgba(76,175,80,.7);transition:.25s}
+.btn-g:hover{color:#fff;transform:translateY(-3px);box-shadow:0 16px 30px -8px rgba(76,175,80,.8)}
+.btn-wa{background:#25D366;color:#fff;border:0}.btn-wa:hover{background:#1ebe5b;color:#fff;transform:translateY(-3px)}
+.btn{border-radius:14px;font-weight:700;padding:.75rem 1.5rem;transition:.25s}
+.navbar{backdrop-filter:blur(14px);background:color-mix(in srgb,var(--bs-body-bg) 80%,transparent);border-bottom:1px solid var(--line)}
+.brand-logo,.logo{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,var(--g),var(--g2));display:grid;place-items:center;overflow:hidden;box-shadow:0 6px 16px -6px rgba(76,175,80,.8)}
+.brand-logo img,.logo img{width:100%;height:100%;object-fit:cover}
+.nav-link{font-weight:600}.nav-link:hover{color:var(--g)}
+.icon-btn{width:42px;height:42px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:inherit;display:grid;place-items:center}
+.icon-btn:hover{border-color:var(--g);color:var(--g)}
+.hero{position:relative;padding:8.5rem 0 5rem;overflow:hidden;background:radial-gradient(circle at 15% 10%,rgba(76,175,80,.22),transparent 45%),radial-gradient(circle at 90% 70%,rgba(255,152,0,.16),transparent 45%)}
+.blob{position:absolute;border-radius:50%;filter:blur(60px);opacity:.45;animation:fl 9s ease-in-out infinite;pointer-events:none}
+.b1{width:280px;height:280px;background:var(--g);top:5%;inset-inline-start:-80px}
+.b2{width:220px;height:220px;background:var(--o);bottom:0;inset-inline-end:-60px;animation-delay:-4s}
+@keyframes fl{50%{transform:translateY(-30px) scale(1.08)}}
+.badge-soft{display:inline-flex;gap:.5rem;align-items:center;padding:.4rem 1rem;border-radius:99px;background:var(--soft);color:var(--g2);font-weight:700;border:1px solid var(--line)}
+[data-bs-theme=dark] .badge-soft{color:#9be19f}
+.hero h1{font-weight:800;font-size:clamp(2.1rem,5.2vw,3.7rem);line-height:1.25}
+.stat b{font-size:2rem;font-weight:800;color:var(--g)}
+.stage{position:relative;max-width:330px;margin:auto;perspective:1000px}
+.phone{border-radius:38px;border:9px solid #111;background:#111;overflow:hidden;box-shadow:0 40px 70px -25px rgba(0,0,0,.55);transition:transform .15s}
+.phone img{display:block;width:100%;height:auto}
+.chip{position:absolute;display:flex;gap:.6rem;align-items:center;padding:.65rem .9rem;border-radius:16px;background:var(--card);border:1px solid var(--line);box-shadow:0 16px 34px -14px rgba(0,0,0,.4);font-weight:700;font-size:.85rem;animation:fl 6s ease-in-out infinite}
+.chip i{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;color:#fff;background:var(--g)}
+.c1{top:14%;inset-inline-start:-14%}.c2{bottom:16%;inset-inline-end:-14%;animation-delay:-3s}.c2 i{background:var(--o)}.c3{top:2%;inset-inline-end:-6%;animation-delay:-1.5s}.c3 i{background:#7e57c2}
+.sec{padding:5.5rem 0}.alt{background:var(--soft)}
+.sec h2{font-weight:800;font-size:clamp(1.7rem,3.6vw,2.5rem)}
+.fcard{height:100%;padding:1.6rem;border-radius:22px;background:var(--card);border:1px solid var(--line);transition:.3s}
+.fcard:hover{transform:translateY(-8px);border-color:var(--g);box-shadow:0 24px 40px -22px rgba(76,175,80,.7)}
+.fi{width:56px;height:56px;border-radius:16px;display:grid;place-items:center;font-size:1.6rem;margin-bottom:1rem;background:var(--soft);color:var(--g)}
+.fcard:nth-child(3n+2) .fi{background:rgba(255,152,0,.14);color:var(--o)}
+.gal{display:flex;gap:1.6rem;overflow-x:auto;scroll-snap-type:x mandatory;padding:1.5rem .5rem 2rem;scrollbar-width:thin}
+.gal figure{flex:0 0 230px;margin:0;scroll-snap-align:center;text-align:center}
+.gal .phone{border-width:7px;border-radius:30px}.gal figure:hover .phone{transform:translateY(-10px) rotate(-1.5deg)}
+.gal figcaption{margin-top:1rem;font-weight:700}
+.step{display:flex;gap:1rem;margin-bottom:1.6rem}
+.num{flex:0 0 48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--g),var(--g2));color:#fff;display:grid;place-items:center;font-weight:800}
+.price{height:100%;padding:2rem;border-radius:26px;background:var(--card);border:2px solid var(--line);position:relative;transition:.3s}
+.price:hover{transform:translateY(-8px)}
+.price.pop{border-color:var(--o);box-shadow:0 26px 50px -26px var(--o)}
+.pop .tag{position:absolute;top:-14px;inset-inline-start:24px;background:var(--o);color:#fff;font-weight:700;padding:.2rem 1rem;border-radius:99px;font-size:.85rem}
+.amt{font-size:3rem;font-weight:800;color:var(--g)}.pop .amt{color:var(--o)}
+.price li{list-style:none;margin:.6rem 0}.price ul{padding:0}.price li i{color:var(--g);margin-inline-end:.5rem}
+.accordion-item{border-radius:16px!important;overflow:hidden;margin-bottom:.8rem;border:1px solid var(--line);background:var(--card)}
+.accordion-button{font-weight:700;background:var(--card)}.accordion-button:not(.collapsed){color:var(--g);background:var(--soft);box-shadow:none}
+.cta{border-radius:32px;padding:3.5rem 1.5rem;color:#fff;text-align:center;background:linear-gradient(135deg,#2e7d32,#4CAF50 60%,#8bc34a);position:relative;overflow:hidden}
+.cta:before{content:"";position:absolute;width:300px;height:300px;border-radius:50%;background:rgba(255,255,255,.12);top:-120px;inset-inline-end:-80px}
+.cta .btn-light{color:var(--g2)}
+footer{border-top:1px solid var(--line);padding:2rem 0}footer a{color:var(--g);font-weight:700;text-decoration:none}
+.wa{position:fixed;bottom:22px;inset-inline-start:22px;z-index:1040;width:58px;height:58px;border-radius:50%;background:#25D366;color:#fff;font-size:1.9rem;display:grid;place-items:center;box-shadow:0 10px 26px -6px rgba(37,211,102,.8);text-decoration:none}
+.wa:before{content:"";position:absolute;inset:0;border-radius:50%;background:#25D366;z-index:-1;animation:pl 2s infinite}
+@keyframes pl{to{transform:scale(1.7);opacity:0}}
+.rv{opacity:0;transform:translateY(34px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
+@media(max-width:575px){.chip{display:none}.hero{padding-top:7rem}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+
+#prog{position:fixed;top:0;inset-inline-start:0;height:3px;width:0;z-index:2000;background:linear-gradient(90deg,var(--g),var(--o))}
+.gt{background-size:200% auto;animation:sh 6s linear infinite}@keyframes sh{to{background-position:200% center}}
+.mq{overflow:hidden;direction:ltr;padding:1.1rem 0;border-block:1px solid var(--line);background:var(--card)}
+.mq-track{display:flex;gap:1rem;width:max-content;animation:mq 34s linear infinite}.mq:hover .mq-track{animation-play-state:paused}
+@keyframes mq{to{transform:translateX(-50%)}}
+.mq-i{display:flex;align-items:center;gap:.6rem;padding:.55rem 1.2rem;border-radius:99px;background:var(--soft);border:1px solid var(--line);font-weight:700;white-space:nowrap}.mq-i i{color:var(--g);font-size:1.2rem}
+.fcard{position:relative;overflow:hidden}
+.fcard:before{content:"";position:absolute;inset:0;opacity:0;transition:.3s;background:radial-gradient(260px circle at var(--x,50%) var(--y,50%),rgba(76,175,80,.18),transparent 70%)}
+.fcard:hover:before{opacity:1}.fcard>*{position:relative}
+.band{position:relative;overflow:hidden;padding:4rem 0;color:#fff;background:linear-gradient(135deg,#1b5e20,#43a047)}
+.band:before{content:"";position:absolute;inset:-50%;background:radial-gradient(rgba(255,255,255,.14) 2px,transparent 2px) 0 0/34px 34px;animation:dr 22s linear infinite}
+@keyframes dr{to{transform:translate(34px,34px)}}
+.band b{display:block;font-size:clamp(2.2rem,5vw,3.4rem);font-weight:800}.band .col-6{position:relative}
+.kcard{height:100%;display:flex;gap:1rem;padding:1.4rem;border-radius:20px;background:var(--card);border:1px solid var(--line);transition:.3s}
+.kcard:hover{transform:translateY(-6px);border-color:var(--o)}
+.kcard .fi{flex:0 0 52px;height:52px;margin:0;font-size:1.4rem}
+.rm{position:relative;height:100%;padding:1.6rem;border-radius:22px;border:2px dashed var(--line);background:var(--card);text-align:center;transition:.3s}
+.rm:hover{border-color:var(--o);transform:translateY(-6px)}.rm i{font-size:2rem;color:var(--o)}
+.rm small{position:absolute;top:10px;inset-inline-end:12px;color:var(--g);font-weight:700}
+.plat{display:flex;gap:.9rem;justify-content:center;flex-wrap:wrap;opacity:.9}.plat span{display:flex;align-items:center;gap:.4rem}
+#top2{position:fixed;bottom:22px;inset-inline-end:22px;z-index:1040;width:46px;height:46px;border-radius:14px;border:0;background:var(--g);color:#fff;display:none;place-items:center;box-shadow:0 10px 24px -8px rgba(76,175,80,.8)}
+.gal figure{flex-basis:215px}
+</style>
+</head>
+<body>
+<div id="prog"></div>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="#top">
+      <span class="brand-logo"><img src="images/logo.png" alt="Logo"></span><span data-i18n="brand"></span>
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-label="Menu"><i class="bi bi-list fs-2"></i></button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link" href="#features" data-i18n="n1"></a></li>
+        <li class="nav-item"><a class="nav-link" href="#screens" data-i18n="n2"></a></li>
+        <li class="nav-item"><a class="nav-link" href="#how" data-i18n="n3"></a></li>
+        <li class="nav-item"><a class="nav-link" href="#pricing" data-i18n="n4"></a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq" data-i18n="n5"></a></li>
+      </ul>
+      <div class="d-flex align-items-center gap-2 py-2 py-lg-0">
+        <div class="dropdown">
+          <button class="icon-btn px-3 w-auto gap-2" data-bs-toggle="dropdown" aria-label="Language"><i class="bi bi-translate"></i><span id="curLang" class="fw-bold"></span></button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><button class="dropdown-item" data-lang="ar">العربية</button></li>
+            <li><button class="dropdown-item" data-lang="en">English</button></li>
+            <li><button class="dropdown-item" data-lang="fr">Français</button></li>
+          </ul>
+        </div>
+        <button class="icon-btn" id="themeBtn" aria-label="Theme"><i class="bi bi-moon-stars"></i></button>
+        <a class="btn btn-g d-none d-sm-inline-block" data-dl href="#"><i class="bi bi-download me-1"></i><span data-i18n="dl"></span></a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <span class="blob b1"></span><span class="blob b2"></span>
+  <div class="container position-relative">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6 text-center text-lg-start">
+        <span class="badge-soft mb-3"><i class="bi bi-stars"></i><span data-i18n="badge"></span></span>
+        <h1 class="mb-3"><span data-i18n="t1"></span> <span class="gt" data-i18n="t2"></span></h1>
+        <p class="lead text-secondary mb-4" data-i18n="sub"></p>
+        <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start mb-5">
+          <a class="btn btn-g btn-lg" data-dl href="#"><i class="bi bi-download me-2"></i><span data-i18n="dl"></span></a>
+          <a class="btn btn-wa btn-lg" data-wa href="#" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-2"></i><span data-i18n="wa"></span></a>
+        </div>
+        <p class="plat text-secondary mb-4 justify-content-lg-start"><span><i class="bi bi-android2"></i>Android</span><span><i class="bi bi-apple"></i>iOS</span><span><i class="bi bi-windows"></i>Windows</span></p>
+        <div class="row text-center g-3">
+          <div class="col-4 stat"><b data-count="17" data-suf="+">0</b><div class="small text-secondary" data-i18n="s1"></div></div>
+          <div class="col-4 stat"><b data-count="3">0</b><div class="small text-secondary" data-i18n="s2"></div></div>
+          <div class="col-4 stat"><b data-count="150" data-suf="+">0</b><div class="small text-secondary" data-i18n="s3"></div></div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="stage" id="stage">
+          <div class="phone" id="heroPhone"><img src="images/s-sales.jpg" alt="Happy Fatora"></div>
+          <div class="chip c1"><i class="bi bi-check2-circle"></i><span data-i18n="chip1"></span></div>
+          <div class="chip c3"><i class="bi bi-upc-scan"></i><span data-i18n="chip3"></span></div>
+          <div class="chip c2"><i class="bi bi-graph-up-arrow"></i><span>1,550 EGP</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="mq" aria-hidden="true"><div class="mq-track" id="mq"></div></div>
+
+<section class="sec" id="features">
+  <div class="container">
+    <div class="text-center mb-5 rv"><h2 data-i18n="ft"></h2><p class="text-secondary" data-i18n="fs"></p></div>
+    <div class="row g-4" id="featGrid"></div>
+  </div>
+</section>
+
+<section class="band"><div class="container"><div class="row g-4 text-center">
+  <div class="col-6 col-md-3"><b data-count="150" data-suf="+">0</b><span data-i18n="sl1"></span></div>
+  <div class="col-6 col-md-3"><b data-count="3">0</b><span data-i18n="sl2"></span></div>
+  <div class="col-6 col-md-3"><b data-count="17" data-suf="+">0</b><span data-i18n="sl3"></span></div>
+  <div class="col-6 col-md-3"><b data-count="3">0</b><span data-i18n="sl4"></span></div>
+</div></div></section>
+
+<section class="sec alt" id="screens">
+  <div class="container">
+    <div class="text-center mb-3 rv"><h2 data-i18n="sct"></h2><p class="text-secondary" data-i18n="scs"></p></div>
+    <div class="d-flex justify-content-end gap-2 mb-2">
+      <button class="icon-btn" id="gPrev" aria-label="Prev"><i class="bi bi-chevron-left"></i></button>
+      <button class="icon-btn" id="gNext" aria-label="Next"><i class="bi bi-chevron-right"></i></button>
+    </div>
+    <div class="gal" id="gal"></div>
+  </div>
+</section>
+
+<section class="sec" id="how">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6 rv"><div class="stage" style="max-width:280px"><div class="phone"><img src="images/s-summary.jpg" alt="" loading="lazy"></div></div></div>
+      <div class="col-lg-6 rv">
+        <h2 class="mb-2" data-i18n="ht"></h2><p class="text-secondary mb-4" data-i18n="hs"></p>
+        <div id="steps"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="security">
+  <div class="container">
+    <div class="text-center mb-5 rv"><h2 data-i18n="kt"></h2><p class="text-secondary" data-i18n="ks"></p></div>
+    <div class="row g-4" id="secGrid"></div>
+  </div>
+</section>
+
+<section class="sec" id="pricing">
+  <div class="container">
+    <div class="text-center mb-5 rv"><h2 data-i18n="pt"></h2><p class="text-secondary" data-i18n="ps"></p></div>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-6 col-lg-4 rv"><div class="price">
+        <h4 data-i18n="pf"></h4><p class="text-secondary" data-i18n="pfd"></p>
+        <div class="amt mb-3" data-i18n="free"></div>
+        <ul><li><i class="bi bi-check-circle-fill"></i><span data-i18n="pb1"></span></li><li><i class="bi bi-check-circle-fill"></i><span data-i18n="pb2"></span></li><li><i class="bi bi-check-circle-fill"></i><span data-i18n="pb3"></span></li></ul>
+        <a class="btn btn-outline-success w-100 mt-3" data-dl href="#" data-i18n="pbtn"></a>
+      </div></div>
+      <div class="col-md-6 col-lg-4 rv"><div class="price">
+        <h4 data-i18n="py"></h4><p class="text-secondary" data-i18n="pyd"></p>
+        <div class="amt mb-3">$10 <small class="fs-6 text-secondary" data-i18n="yr"></small></div>
+        <ul><li><i class="bi bi-check-circle-fill"></i><span data-i18n="pp1"></span></li><li><i class="bi bi-check-circle-fill"></i><span data-i18n="pp2"></span></li><li><i class="bi bi-check-circle-fill"></i><span data-i18n="pp3"></span></li><li><i class="bi bi-check-circle-fill"></i><span data-i18n="pp4"></span></li></ul>
+        <a class="btn btn-g w-100 mt-3" data-wa href="#" target="_blank" rel="noopener" data-i18n="psub"></a>
+      </div></div>
+      <div class="col-md-6 col-lg-4 rv"><div class="price pop"><span class="tag" data-i18n="pop"></span>
+        <h4 data-i18n="p3"></h4><p class="text-secondary" data-i18n="p3d"></p>
+        <div class="amt mb-3">$25 <s class="fs-6 text-secondary">$30</s> <small class="fs-6 text-secondary" data-i18n="y3"></small></div>
+        <ul><li><i class="bi bi-check-circle-fill"></i><span data-i18n="pp1"></span></li><li><i class="bi bi-check-circle-fill"></i><span data-i18n="pp2"></span></li><li><i class="bi bi-check-circle-fill"></i><span data-i18n="pp3"></span></li><li><i class="bi bi-check-circle-fill"></i><span data-i18n="pp4"></span></li></ul>
+        <a class="btn w-100 mt-3 text-white" style="background:var(--o)" data-wa href="#" target="_blank" rel="noopener" data-i18n="psub"></a>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="roadmap">
+  <div class="container">
+    <div class="text-center mb-5 rv"><h2 data-i18n="rt"></h2><p class="text-secondary" data-i18n="rs"></p></div>
+    <div class="row g-4" id="roadGrid"></div>
+  </div>
+</section>
+
+<section class="sec" id="faq">
+  <div class="container" style="max-width:820px">
+    <div class="text-center mb-5 rv"><h2 data-i18n="qt"></h2></div>
+    <div class="accordion rv" id="faqList"></div>
+  </div>
+</section>
+
+<section class="pb-5">
+  <div class="container"><div class="cta rv">
+    <h2 class="fw-bold mb-2 position-relative" data-i18n="ct"></h2>
+    <p class="mb-4 opacity-75 position-relative" data-i18n="cs"></p>
+    <div class="d-flex flex-wrap gap-3 justify-content-center position-relative">
+      <a class="btn btn-light btn-lg" data-dl href="#"><i class="bi bi-download me-2"></i><span data-i18n="dl"></span></a>
+      <a class="btn btn-wa btn-lg" data-wa href="#" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-2"></i><span data-i18n="wa"></span></a>
+    </div>
+  </div></div>
+</section>
+
+<footer>
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3 text-center">
+    <div class="d-flex align-items-center gap-2 fw-bold"><span class="logo" style="width:36px;height:36px"><img src="images/logo.png" alt="Logo"></span><span data-i18n="brand"></span><span class="text-secondary fw-normal d-none d-md-inline">— <span data-i18n="tag"></span></span></div>
+    <div class="text-secondary">© <span id="yr"></span> <span data-i18n="rights"></span> <a href="https://www.nawafezsystems.com/" target="_blank" rel="noopener" data-i18n="co"></a></div>
+  </div>
+</footer>
+
+<button id="top2" aria-label="Top"><i class="bi bi-arrow-up"></i></button>
+<a class="wa" data-wa href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+/* ===== Settings: edit these two lines ===== */
+var WHATSAPP = '20XXXXXXXXXX';   /* international format, digits only */
+var DOWNLOAD_URL = '#';          /* app download link */
+
+/* ===== Translations: [ar, en, fr] ===== */
+var T={
+brand:["هابي فاتورة","Happy Fatora","Happy Fatora"],
+tag:["كل محلك في جيبك","Your whole shop in your pocket","Toute votre boutique dans la poche"],
+n1:["المميزات","Features","Fonctionnalités"],n2:["لقطات الشاشة","Screenshots","Captures"],n3:["كيف يعمل","How it works","Comment ça marche"],n4:["الأسعار","Pricing","Tarifs"],n5:["الأسئلة الشائعة","FAQ","FAQ"],
+dl:["حمّل التطبيق","Download app","Télécharger"],wa:["تواصل عبر واتساب","Chat on WhatsApp","Écrire sur WhatsApp"],
+badge:["ERP مصغّر لإدارة المحلات","A compact ERP for shops","Un ERP compact pour commerces"],
+t1:["كل محلك في جيبك..","Your whole shop in your pocket..","Toute votre boutique dans la poche.."],
+t2:["فواتير ومخزون وحسابات بدون إنترنت","invoices, stock & accounts, even offline","factures, stock et comptes, même hors ligne"],
+sub:["هابي فاتورة تطبيق متكامل لإدارة المحلات: المبيعات والمشتريات والمخزون والعملاء والموردين والتقارير، بتصميم عصري وسهل يناسب أي نشاط.","Happy Fatora is an all-in-one app to run your shop: sales, purchases, inventory, customers, suppliers and reports, in a modern and simple design.","Happy Fatora est une application tout-en-un pour gérer votre commerce : ventes, achats, stock, clients, fournisseurs et rapports, dans un design moderne et simple."],
+s1:["قسم متكامل","Modules","Modules"],s2:["لغات","Languages","Langues"],s3:["عملة مدعومة","Currencies supported","Devises prises en charge"],
+chip1:["تم حفظ الفاتورة","Invoice saved","Facture enregistrée"],
+ft:["كل ما يحتاجه محلك في تطبيق واحد","Everything your shop needs, in one app","Tout ce dont votre commerce a besoin, en une app"],
+fs:["أدوات احترافية بسيطة الاستخدام تختصر وقتك وتضبط حساباتك","Professional, easy tools that save time and keep your books right","Des outils pros et simples qui font gagner du temps et sécurisent vos comptes"],
+f1t:["المبيعات والفواتير","Sales & invoices","Ventes et factures"],f1d:["أنشئ فاتورة في ثوانٍ مع السلة والخصم والضريبة، واطبعها أو صدّرها PDF.","Create invoices in seconds with cart, discount and tax, then print or export to PDF.","Créez une facture en quelques secondes avec panier, remise et taxe, puis imprimez ou exportez en PDF."],
+f2t:["المخزون والدفعات","Inventory & batches","Stock et lots"],f2d:["تتبّع الكميات والدفعات، مع تنبيهات المنتجات المنخفضة والتالفة ومنتهية الصلاحية.","Track quantities and batches, with alerts for low, damaged and expired items.","Suivez quantités et lots, avec alertes pour stock bas, produits abîmés ou périmés."],
+f3t:["العملاء والموردون","Customers & suppliers","Clients et fournisseurs"],f3d:["سجل كامل للمعاملات والديون والمدفوعات لكل عميل ومورد.","Full history of transactions, debts and payments for every customer and supplier.","Historique complet des transactions, dettes et paiements pour chaque client et fournisseur."],
+f4t:["المشتريات والمرتجعات","Purchases & returns","Achats et retours"],f4d:["سجّل المشتريات ومرتجعات البيع والشراء وارتبط بالفاتورة الأصلية تلقائيًا.","Record purchases plus sales and purchase returns, linked to the original invoice.","Enregistrez achats et retours, liés automatiquement à la facture d'origine."],
+f5t:["باركود و QR","Barcode & QR","Code-barres et QR"],f5d:["أنشئ واطبع ملصقات الباركود وQR لمنتجاتك واستخدمها في البيع السريع.","Generate and print barcode and QR labels, and use them for fast checkout.","Générez et imprimez des étiquettes code-barres et QR pour une vente rapide."],
+f6t:["تقارير وإحصائيات","Reports & analytics","Rapports et statistiques"],f6d:["تقارير المبيعات والمشتريات والمخزون والضرائب والتقرير المالي مع تصدير سهل.","Sales, purchases, inventory, tax and financial reports with easy export.","Rapports ventes, achats, stock, taxes et financiers avec export facile."],
+f7t:["المصروفات والنقدية","Expenses & cash","Dépenses et trésorerie"],f7d:["راقب المصروفات والإيرادات والرصيد النقدي لتعرف أرباحك لحظة بلحظة.","Monitor expenses, income and cash balance to know your profit at any moment.","Suivez dépenses, revenus et solde de caisse pour connaître vos bénéfices à tout moment."],
+f8t:["مصمم الفاتورة","Invoice designer","Éditeur de facture"],f8d:["خصص الشعار والألوان والخطوط والأعمدة، وصدّر PDF وJPG وPNG وHTML.","Customize logo, colors, fonts and columns, then export PDF, JPG, PNG or HTML.","Personnalisez logo, couleurs, polices et colonnes, puis exportez en PDF, JPG, PNG ou HTML."],
+sct:["شاهد التطبيق من الداخل","See the app inside","Découvrez l'application"],scs:["واجهة عصرية وسريعة تدعم العربية والإنجليزية والفرنسية والوضع الداكن","A fast, modern interface in Arabic, English and French, with dark mode","Une interface rapide et moderne en arabe, anglais et français, avec mode sombre"],
+c1:["إنشاء فاتورة بيع","Create a sale","Créer une vente"],c2:["إدارة المخزون","Inventory","Gestion du stock"],c3:["طباعة QR","QR printing","Impression QR"],c4:["معاينة الفاتورة","Invoice preview","Aperçu de facture"],c5:["تقرير المبيعات","Sales report","Rapport des ventes"],c6:["النقدية","Cash overview","Trésorerie"],c7:["إحصائيات العميل","Customer insights","Statistiques client"],c8:["القائمة الرئيسية","Main menu","Menu principal"],
+ht:["من البيع للفاتورة في 4 خطوات","From sale to invoice in 4 steps","De la vente à la facture en 4 étapes"],hs:["مسار بسيط وسريع حتى لو لم تستخدم برامج محاسبة من قبل","A quick, simple flow even if you never used accounting software","Un parcours simple et rapide, même sans expérience comptable"],
+h1t:["اختر العميل والمنتجات","Pick customer & products","Choisissez client et produits"],h1d:["ابحث بالاسم أو امسح الباركود وأضف للسلة.","Search by name or scan a barcode and add to cart.","Recherchez par nom ou scannez le code-barres et ajoutez au panier."],
+h2t:["حدّد الكمية والسعر","Set quantity & price","Définissez quantité et prix"],h2d:["أزرار سريعة للكميات واختيار الدفعة من المخزون.","Quick quantity buttons and batch selection from stock.","Boutons rapides de quantité et choix du lot en stock."],
+h3t:["سجّل الدفع","Record payment","Enregistrez le paiement"],h3d:["نقدًا أو أقساط، مدفوع أو جزئي أو معلّق.","Cash or installments: paid, partial or pending.","Espèces ou échéances : payé, partiel ou en attente."],
+h4t:["اطبع أو صدّر PDF","Print or export PDF","Imprimez ou exportez en PDF"],h4d:["فاتورة احترافية جاهزة للطباعة أو المشاركة فورًا.","A professional invoice ready to print or share instantly.","Une facture pro prête à imprimer ou partager aussitôt."],
+pt:["اختر الباقة المناسبة","Choose your plan","Choisissez votre offre"],ps:["ابدأ مجانًا وطوّر وقتما تحتاج","Start free and upgrade when you need","Commencez gratuitement, évoluez quand vous voulez"],
+pf:["رخصة مجانية","Free license","Licence gratuite"],pfd:["للبدء وتجربة أساسيات إدارة المبيعات","To start and try the sales basics","Pour démarrer et essayer les bases de la vente"],free:["مجانًا","Free","Gratuit"],
+pb1:["المبيعات والفواتير والعملاء","Sales, invoices & customers","Ventes, factures et clients"],pb2:["إدارة المنتجات والمخزون","Products & inventory","Produits et stock"],pb3:["يحتاج اتصالًا بالإنترنت وتظهر إعلانات","Needs internet and shows ads","Internet requis, avec publicités"],pbtn:["ابدأ مجانًا","Start free","Commencer gratuitement"],
+py:["الخطة السنوية","Annual plan","Offre annuelle"],pyd:["سنة واحدة","One year","Un an"],yr:["/ سنة","/ year","/ an"],
+p3:["خطة 3 سنوات","3-year plan","Offre 3 ans"],p3d:["الأوفر والأكثر شيوعًا","Best value & most popular","Meilleur rapport, la plus choisie"],y3:["/ 3 سنوات","/ 3 years","/ 3 ans"],pop:["الأكثر شيوعًا","Most popular","La plus populaire"],
+pp1:["تشمل جميع الميزات","All features included","Toutes les fonctionnalités"],pp2:["يعمل دون إنترنت","Works offline","Fonctionne hors ligne"],pp3:["بدون إعلانات","No ads","Sans publicité"],pp4:["دعم مميز","Premium support","Support premium"],psub:["اشترك الآن","Subscribe now","S'abonner"],
+qt:["الأسئلة الشائعة","Frequently asked questions","Questions fréquentes"],
+q1:["هل يعمل التطبيق بدون إنترنت؟","Does it work offline?","Fonctionne-t-il hors ligne ?"],a1:["النسخة المدفوعة تعمل بالكامل دون إنترنت وبدون إعلانات، أما المجانية فتحتاج اتصالًا وتعرض إعلانات.","The paid plan works fully offline with no ads; the free license needs internet and shows ads.","L'offre payante fonctionne totalement hors ligne et sans pub ; la licence gratuite nécessite internet et affiche des pubs."],
+q2:["ما اللغات المدعومة؟","Which languages are supported?","Quelles langues sont prises en charge ?"],a2:["العربية والإنجليزية والفرنسية، مع الوضعين الفاتح والداكن.","Arabic, English and French, with light and dark modes.","Arabe, anglais et français, avec modes clair et sombre."],
+q3:["هل أستطيع طباعة الفواتير بشعاري؟","Can I print invoices with my logo?","Puis-je imprimer mes factures avec mon logo ?"],a3:["نعم، يمكنك تخصيص الشعار والألوان والخطوط وأعمدة الفاتورة والتصدير بعدة صيغ.","Yes, customize logo, colors, fonts and columns, and export in several formats.","Oui, personnalisez logo, couleurs, polices et colonnes, et exportez en plusieurs formats."],
+q4:["كيف أشترك في الباقة المدفوعة؟","How do I get a paid plan?","Comment souscrire à une offre payante ?"],a4:["تواصل معنا عبر واتساب وسنفعّل لك الترخيص فورًا.","Message us on WhatsApp and we will activate your license right away.","Écrivez-nous sur WhatsApp et nous activerons votre licence immédiatement."],
+ct:["جاهز لتنظيم محلك؟","Ready to organize your shop?","Prêt à organiser votre commerce ?"],cs:["حمّل هابي فاتورة وابدأ مجانًا اليوم","Download Happy Fatora and start free today","Téléchargez Happy Fatora et commencez gratuitement"],
+rights:["جميع الحقوق محفوظة ل","All rights reserved to","Tous droits réservés à"],co:["نوافذ سيستمز","Nawafez Systems","Nawafez Systems"],
+chip3:["باركود جاهز","Barcode ready","Code-barres prêt"],
+sl1:["عملة مدعومة","Currencies supported","Devises prises en charge"],sl2:["لغات","Languages","Langues"],sl3:["قسم متكامل","Integrated modules","Modules intégrés"],sl4:["منصات: Android وiOS وWindows","Platforms: Android, iOS, Windows","Plateformes : Android, iOS, Windows"],
+u1:["سوبر ماركت","Supermarkets","Supermarchés"],u2:["صيدليات","Pharmacies","Pharmacies"],u3:["مطاعم وكافيهات","Restaurants & cafés","Restaurants et cafés"],u4:["تجار الجملة","Wholesalers","Grossistes"],u5:["مستودعات","Warehouses","Entrepôts"],u6:["محلات تجارية","Retail shops","Commerces"],
+kt:["أمان وأداء بمستوى احترافي","Pro-grade security and performance","Sécurité et performance de niveau pro"],ks:["بياناتك محفوظة على جهازك وبأعلى درجات الحماية","Your data stays on your device, well protected","Vos données restent sur votre appareil, bien protégées"],
+k1t:["بصمة وكلمة مرور","Fingerprint & password","Empreinte et mot de passe"],k1d:["تسجيل دخول آمن ومصادقة بالبصمة لحماية نشاطك.","Secure sign-in with biometric authentication to protect your business.","Connexion sécurisée avec authentification biométrique pour protéger votre activité."],
+k2t:["نسخ احتياطي تلقائي","Automatic backup","Sauvegarde automatique"],k2d:["نسخ مجدول واستعادة سهلة، مع Google Drive في الباقة المدفوعة.","Scheduled backups and easy restore, plus Google Drive in the paid plan.","Sauvegardes planifiées et restauration facile, avec Google Drive en offre payante."],
+k3t:["قاعدة بيانات محلية","Local database","Base de données locale"],k3d:["أداء سريع بقاعدة SQLite وبياناتك على جهازك.","Fast SQLite performance with your data on your device.","Performance rapide avec SQLite et vos données sur votre appareil."],
+k4t:["طباعة حرارية وA4","Thermal & A4 printing","Impression thermique et A4"],k4d:["دعم طابعات 58 و80 مم وطباعة A4 وتصدير PDF وصور.","Supports 58/80 mm thermal printers, A4, PDF and image export.","Imprimantes thermiques 58/80 mm, A4, export PDF et image."],
+k5t:["أكثر من 150 عملة","150+ currencies","Plus de 150 devises"],k5d:["اعمل بعملتك المحلية مع الضرائب والخصومات التلقائية.","Work in your local currency with automatic tax and discounts.","Travaillez dans votre devise avec taxes et remises automatiques."],
+k6t:["ترخيص محمي","Protected licensing","Licence protégée"],k6d:["حماية من المحاكيات وتشفير للبيانات الحساسة.","Emulator protection and encryption for sensitive data.","Protection contre les émulateurs et chiffrement des données sensibles."],
+rt:["قريبًا في هابي فاتورة","Coming soon to Happy Fatora","Bientôt dans Happy Fatora"],rs:["التطوير مستمر بتحديثات وميزات جديدة","Continuous development with new updates and features","Développement continu avec de nouvelles mises à jour"],soon:["قريبًا","Soon","Bientôt"],
+r1t:["تطبيق ويب","Web app","Application web"],r1d:["وصول من أي جهاز عبر المتصفح.","Access from any device via browser.","Accès depuis tout appareil via le navigateur."],
+r2t:["الفروع المتعددة","Multiple branches","Multi-succursales"],r2d:["إدارة أكثر من فرع من مكان واحد.","Manage several branches from one place.","Gérez plusieurs succursales depuis un seul endroit."],
+r3t:["تقارير بالذكاء الاصطناعي","AI-powered reports","Rapports par IA"],r3d:["رؤى وتوصيات ذكية لنمو نشاطك.","Smart insights and tips to grow your business.","Analyses et conseils intelligents pour votre croissance."],
+r4t:["الموظفون والصلاحيات","Staff & permissions","Employés et permissions"],r4d:["حسابات للموظفين بصلاحيات متقدمة.","Staff accounts with advanced permissions.","Comptes employés avec permissions avancées."],
+c9:["اللغة والمظهر","Language & theme","Langue et thème"],c10:["تخصيص الفاتورة","Invoice settings","Réglages de facture"],c11:["ملخص المورد","Supplier overview","Fiche fournisseur"],c12:["المصروفات","Expenses","Dépenses"],c13:["طباعة الباركود","Barcode printing","Impression code-barres"],c14:["التراخيص","Licensing","Licences"],c15:["تفاصيل المنتج","Product details","Détails du produit"],c16:["المرتجعات","Returns","Retours"]
+};
+var FEAT=[["bi-receipt","f1"],["bi-box-seam","f2"],["bi-people","f3"],["bi-cart-check","f4"],["bi-qr-code-scan","f5"],["bi-bar-chart-line","f6"],["bi-wallet2","f7"],["bi-palette","f8"]];
+var SHOTS=[["s-pos","c1"],["s-stock","c2"],["s-product","c15"],["s-qr","c3"],["s-barcode","c13"],["s-invoice","c4"],["s-invset","c10"],["s-reports","c5"],["s-cash","c6"],["s-expense","c12"],["s-customer","c7"],["s-supplier","c11"],["s-returns","c16"],["s-license","c14"],["s-lang","c9"],["s-menu","c8"]];
+var USES=[["bi-basket","u1"],["bi-capsule","u2"],["bi-cup-hot","u3"],["bi-truck","u4"],["bi-building","u5"],["bi-shop","u6"]];
+var SEC=[["bi-fingerprint","k1"],["bi-cloud-arrow-up","k2"],["bi-database-check","k3"],["bi-printer","k4"],["bi-currency-exchange","k5"],["bi-shield-lock","k6"]];
+var ROAD=[["bi-globe2","r1"],["bi-diagram-3","r2"],["bi-robot","r3"],["bi-person-gear","r4"]];
+var IDX={ar:0,en:1,fr:2},NAMES={ar:"AR",en:"EN",fr:"FR"};
+var $=function(s,r){return(r||document).querySelector(s)},$$=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
+
+/* Build repeated blocks */
+$('#featGrid').innerHTML=FEAT.map(function(f){return '<div class="col-sm-6 col-lg-3 rv"><div class="fcard"><div class="fi"><i class="bi '+f[0]+'"></i></div><h5 class="fw-bold" data-i18n="'+f[1]+'t"></h5><p class="text-secondary mb-0" data-i18n="'+f[1]+'d"></p></div></div>'}).join('');
+$('#gal').innerHTML=SHOTS.map(function(s){return '<figure><div class="phone"><img loading="lazy" src="images/'+s[0]+'.jpg" alt=""></div><figcaption data-i18n="'+s[1]+'"></figcaption></figure>'}).join('');
+$('#steps').innerHTML=[1,2,3,4].map(function(i){return '<div class="step"><div class="num">'+i+'</div><div><h5 class="fw-bold mb-1" data-i18n="h'+i+'t"></h5><p class="text-secondary mb-0" data-i18n="h'+i+'d"></p></div></div>'}).join('');
+$('#faqList').innerHTML=[1,2,3,4].map(function(i){return '<div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button'+(i>1?' collapsed':'')+'" data-bs-toggle="collapse" data-bs-target="#a'+i+'" data-i18n="q'+i+'"></button></h3><div id="a'+i+'" class="accordion-collapse collapse'+(i===1?' show':'')+'" data-bs-parent="#faqList"><div class="accordion-body text-secondary" data-i18n="a'+i+'"></div></div></div>'}).join('');
+
+
+$('#mq').innerHTML=USES.concat(USES,USES,USES).map(function(u){return '<span class="mq-i"><i class="bi '+u[0]+'"></i><span data-i18n="'+u[1]+'"></span></span>'}).join('');
+$('#secGrid').innerHTML=SEC.map(function(f){return '<div class="col-md-6 col-lg-4 rv"><div class="kcard"><div class="fi"><i class="bi '+f[0]+'"></i></div><div><h5 class="fw-bold" data-i18n="'+f[1]+'t"></h5><p class="text-secondary mb-0" data-i18n="'+f[1]+'d"></p></div></div></div>'}).join('');
+$('#roadGrid').innerHTML=ROAD.map(function(f){return '<div class="col-sm-6 col-lg-3 rv"><div class="rm"><small data-i18n="soon"></small><i class="bi '+f[0]+'"></i><h5 class="fw-bold mt-2" data-i18n="'+f[1]+'t"></h5><p class="text-secondary mb-0" data-i18n="'+f[1]+'d"></p></div></div>'}).join('');
+
+/* Language */
+function setLang(l){
+  var i=IDX[l];LANG=l;LS.set('lang',l);
+  document.documentElement.lang=l;document.documentElement.dir=l==='ar'?'rtl':'ltr';
+  $('#bs').href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap'+(l==='ar'?'.rtl':'')+'.min.css';
+  $$('[data-i18n]').forEach(function(e){var v=T[e.dataset.i18n];if(v)e.textContent=v[i]});
+  $('#curLang').textContent=NAMES[l];
+  document.title=T.brand[i]+' | '+T.tag[i];
+  $('meta[name=description]').content=T.sub[i];
+}
+$$('[data-lang]').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.lang)})});
+
+/* Theme */
+function setTheme(t){THEME=t;LS.set('theme',t);document.documentElement.setAttribute('data-bs-theme',t);$('#themeBtn i').className='bi '+(t==='dark'?'bi-sun':'bi-moon-stars')}
+$('#themeBtn').addEventListener('click',function(){setTheme(THEME==='dark'?'light':'dark')});
+
+/* Links */
+$$('[data-wa]').forEach(function(a){a.href='https://wa.me/'+WHATSAPP})
+$$('[data-dl]').forEach(function(a){a.href=DOWNLOAD_URL});
+$('#yr').textContent=new Date().getFullYear();
+
+/* Close mobile menu on click */
+$$('#nav .nav-link').forEach(function(a){a.addEventListener('click',function(){var c=bootstrap.Collapse.getInstance($('#nav'));if(c)c.hide()})});
+
+/* Gallery arrows */
+$('#gPrev').addEventListener('click',function(){$('#gal').scrollBy({left:-280,behavior:'smooth'})});
+$('#gNext').addEventListener('click',function(){$('#gal').scrollBy({left:280,behavior:'smooth'})});
+
+/* Reveal + counters */
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.15});
+$$('.rv').forEach(function(e){io.observe(e)});
+function count(el){var to=+el.dataset.count,suf=el.dataset.suf||'',t0=null;(function s(t){t0=t0||t;var p=Math.min((t-t0)/1400,1);el.textContent=Math.round(to*p)+(p===1?suf:'');if(p<1)requestAnimationFrame(s)})(performance.now())}
+var io2=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){count(e.target);io2.unobserve(e.target)}})});
+$$('[data-count]').forEach(function(e){io2.observe(e)});
+
+/* Hero phone tilt (desktop pointer only) */
+var st=$('#stage'),hp=$('#heroPhone');
+if(matchMedia('(hover:hover)').matches){
+  st.addEventListener('mousemove',function(e){var r=st.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;hp.style.transform='rotateY('+x*14+'deg) rotateX('+-y*14+'deg)'});
+  st.addEventListener('mouseleave',function(){hp.style.transform=''});
+}
+
+
+/* Spotlight on cards, scroll progress, back-to-top, blob parallax */
+document.addEventListener('mousemove',function(e){var c=e.target.closest&&e.target.closest('.fcard');if(c){var r=c.getBoundingClientRect();c.style.setProperty('--x',e.clientX-r.left+'px');c.style.setProperty('--y',e.clientY-r.top+'px')}});
+var prog=$('#prog'),tb=$('#top2'),bl=$$('.blob');
+addEventListener('scroll',function(){var h=document.documentElement,y=h.scrollTop;prog.style.width=(y/(h.scrollHeight-h.clientHeight)*100)+'%';tb.style.display=y>600?'grid':'none';bl.forEach(function(b,i){b.style.translate='0 '+(y*(i?-.08:.12))+'px'})},{passive:true});
+tb.addEventListener('click',function(){scrollTo({top:0,behavior:'smooth'})});
+
+setTheme(THEME);setLang(LANG);
+</script>
+</body>
+</html>
