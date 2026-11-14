@@ -1,266 +1,267 @@
-# Happy Fatora: Terms of Service and Privacy Policy
+# هابي فاتورة: شروط الخدمة وسياسة الخصوصية
 
-**Last Updated:** November 14, 2026  
-**Version:** 1.1.0
+**آخر تحديث:** 14 نوفمبر 2026  
+**الإصدار:** 1.1.0
 
-Happy Fatora ("the App", "we", "us") is a Point of Sale (POS) and invoicing management application developed by **Nawafez Systems for Software Solutions** ("Nawafez Systems"). This document contains both the Terms of Service and the Privacy Policy. By installing or using the App, you agree to both.
+تطبيق هابي فاتورة ("التطبيق" أو "نحن") هو تطبيق لإدارة نقاط البيع (POS) والفواتير، من تطوير **نوافذ سيستمز .. لانظمة البرمجيات** ("نوافذ سيستمز"). يتضمن هذا المستند شروط الخدمة وسياسة الخصوصية معاً. بتثبيتك التطبيق أو استخدامه فإنك توافق على الاثنين.
 
 ---
 
-## 1. Acceptance of Terms
+## 1. قبول الشروط
 
-By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree, do not use the App.
+بتنزيلك التطبيق أو تثبيته أو استخدامه، فإنك توافق على الالتزام بهذه الشروط. إذا كنت لا توافق، فلا تستخدم التطبيق.
 
-We may modify these Terms at any time. When we make material changes, we will update the "Last Updated" date and notify you inside the App or through the Google Play listing. Continued use after changes means you accept the modified Terms.
+قد نعدّل هذه الشروط في أي وقت. وعند إجراء تغييرات جوهرية سنحدّث تاريخ "آخر تحديث" ونُبلغك داخل التطبيق أو عبر صفحة التطبيق في Google Play. استمرارك في الاستخدام بعد التعديل يعني قبولك للشروط المعدّلة.
 
-You must be at least 18 years old to use the App.
+يجب ألا يقل عمرك عن 18 عاماً لاستخدام التطبيق.
 
-## 2. Description of the Service
+## 2. وصف الخدمة
 
-Happy Fatora is a POS and invoicing application for businesses. It lets you:
+هابي فاتورة تطبيق لإدارة نقاط البيع والفواتير مخصص للأعمال التجارية، ويتيح لك:
 
-- Create, manage, and print invoices
-- Manage products, inventory, and stock levels
-- Track sales, purchases, and returns
-- Manage customers and suppliers
-- Generate and scan barcodes and QR codes
-- Export data (PDF, CSV, Excel)
-- Track expenses and debts
-- Generate financial reports and statistics
-- Create local backups and, optionally, backups on your own Google Drive
-- Customize invoice templates
+- إنشاء الفواتير وإدارتها وطباعتها
+- إدارة المنتجات والمخزون ومستوياته
+- تتبع المبيعات والمشتريات والمرتجعات
+- إدارة العملاء والموردين
+- إنشاء الباركود ورموز QR ومسحها
+- تصدير البيانات (PDF وCSV وExcel)
+- تتبع المصروفات والديون
+- إنشاء التقارير والإحصائيات المالية
+- إنشاء نسخ احتياطية محلية، وبشكل اختياري نسخ احتياطية على حساب Google Drive الخاص بك
+- تخصيص قوالب الفواتير
 
-The App runs on Android (version 5.0 and above) and stores your business data locally on your device in an SQLite database.
+يعمل التطبيق على أجهزة Android (الإصدار 5.0 فما فوق)، ويخزّن بيانات عملك محلياً على جهازك في قاعدة بيانات SQLite.
 
-## 3. Data We Collect and How We Use It
+## 3. البيانات التي نجمعها وكيف نستخدمها
 
-### 3.1 Business data you enter
+### 3.1 بيانات العمل التي تدخلها أنت
 
-- Products (name, barcode, price, cost, stock, images)
-- Customers and suppliers (name, phone, address, balance)
-- Invoices and transactions
-- Financial records (expenses, debts, payments)
-- Categories and units
+- المنتجات (الاسم، الباركود، السعر، التكلفة، المخزون، الصور)
+- العملاء والموردون (الاسم، الهاتف، العنوان، الرصيد)
+- الفواتير والمعاملات
+- السجلات المالية (المصروفات، الديون، المدفوعات)
+- الفئات والوحدات
 
-This data is stored on your device. **We do not receive it, and we do not store it on our servers.**
+هذه البيانات تُخزَّن على جهازك. **نحن لا نستلمها ولا نخزّنها على خوادمنا.**
 
-### 3.2 Device and usage data (automatic)
+### 3.2 بيانات الجهاز والاستخدام (تلقائياً)
 
-- Device model and operating system version
-- App version
-- A device identifier used for licensing
-- Crash reports, error logs, and performance data
-- Advertising identifier and related data collected by Google AdMob (free version only)
+- طراز الجهاز وإصدار نظام التشغيل
+- إصدار التطبيق
+- معرّف الجهاز المستخدم للترخيص
+- تقارير الأعطال وسجلات الأخطاء وبيانات الأداء
+- معرّف الإعلانات والبيانات المرتبطة به التي تجمعها Google AdMob (في النسخة المجانية فقط)
 
-### 3.3 How we use data
+### 3.3 كيف نستخدم البيانات
 
-- To run the App's core features
-- To generate invoices and reports
-- To create backups and restore data
-- To fix bugs and improve performance
-- To verify your license
-- To display ads in the free version (through Google AdMob)
+- لتشغيل الوظائف الأساسية للتطبيق
+- لإنشاء الفواتير والتقارير
+- لإنشاء النسخ الاحتياطية واستعادة البيانات
+- لإصلاح الأخطاء وتحسين الأداء
+- للتحقق من الترخيص
+- لعرض الإعلانات في النسخة المجانية (عبر Google AdMob)
 
-### 3.4 Where data is stored
+### 3.4 أين تُخزَّن البيانات
 
-- **On your device:** all business data is stored locally in an SQLite database.
-- **On your Google Drive (optional):** only if you enable cloud backup, copies of your backup files are stored in your own Google Drive account (see Section 4).
-- **On our servers:** we do not store your business data on our servers.
+- **على جهازك:** تُخزَّن جميع بيانات العمل محلياً في قاعدة بيانات SQLite.
+- **على Google Drive الخاص بك (اختياري):** فقط إذا فعّلت النسخ الاحتياطي السحابي، تُحفظ نسخ من ملفات النسخ الاحتياطي في حساب Google Drive الخاص بك (انظر القسم 4).
+- **على خوادمنا:** لا نخزّن بيانات عملك على خوادمنا.
 
-### 3.5 Data sharing
+### 3.5 مشاركة البيانات
 
-We do not sell your personal data. We share data only with:
+نحن لا نبيع بياناتك الشخصية. نشارك البيانات فقط مع:
 
-- **Google AdMob**, for displaying ads (free version)
-- **Google Drive**, only when you choose to use cloud backup, and only into your own account
-- **Legal authorities**, when required by law
+- **Google AdMob** لعرض الإعلانات (النسخة المجانية)
+- **Google Drive** فقط عندما تختار استخدام النسخ الاحتياطي السحابي، وإلى حسابك أنت فقط
+- **الجهات القانونية** عندما يطلب القانون ذلك
 
-## 4. Google Drive Cloud Backup (Google User Data)
+## 4. النسخ الاحتياطي على Google Drive (بيانات مستخدم Google)
 
-Cloud backup is optional. It works only if you sign in with your Google account and grant permission.
+النسخ الاحتياطي السحابي اختياري، ولا يعمل إلا إذا سجّلت الدخول بحساب Google الخاص بك ومنحت الإذن.
 
-**Access we request**
+**الصلاحية التي نطلبها**
 
-- `https://www.googleapis.com/auth/drive.file`: lets the App create and manage only the files and folders that the App itself created in your Google Drive. The App cannot see, read, or modify any other file in your Drive.
+- `https://www.googleapis.com/auth/drive.file`: تتيح للتطبيق إنشاء وإدارة الملفات والمجلدات التي أنشأها التطبيق نفسه فقط في Google Drive الخاص بك. لا يستطيع التطبيق رؤية أو قراءة أو تعديل أي ملف آخر في Drive.
 
-**What we do with it**
+**ماذا نفعل بها**
 
-- Create a folder named `HappyFatora_Backups` in your Google Drive
-- Upload backup files that you (or your auto-backup setting) create
-- List, download, and delete the backup files that the App created, so you can restore or remove them
-- Read your Google account email address to show which account is connected
+- إنشاء مجلد باسم `HappyFatora_Backups` في Google Drive الخاص بك
+- رفع ملفات النسخ الاحتياطي التي تنشئها أنت (أو يتم إنشاؤها حسب إعداد النسخ التلقائي)
+- عرض وتنزيل وحذف ملفات النسخ الاحتياطي التي أنشأها التطبيق، لتتمكن من استعادتها أو إزالتها
+- قراءة عنوان البريد الإلكتروني لحساب Google لعرض الحساب المتصل
 
-**What we do not do**
+**ما لا نفعله**
 
-- We do not read, scan, or access any of your other Drive files.
-- We do not send your Google user data or backup files to our servers or to any third party.
-- We do not use Google user data for advertising, and we do not sell it.
-- No human at our side reads your backup files.
+- لا نقرأ أو نفحص أو نصل إلى أي ملفات أخرى في Drive الخاص بك.
+- لا نرسل بيانات مستخدم Google أو ملفات النسخ الاحتياطي إلى خوادمنا أو إلى أي طرف ثالث.
+- لا نستخدم بيانات مستخدم Google في الإعلانات، ولا نبيعها.
+- لا يطّلع أي شخص من جهتنا على ملفات النسخ الاحتياطي الخاصة بك.
 
-**Google API Services User Data Policy.** The App's use and transfer of information received from Google APIs to any other app will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
+**سياسة بيانات المستخدم لخدمات Google API.** يلتزم استخدام التطبيق للمعلومات المستلمة من Google APIs ونقلها إلى أي تطبيق آخر بـ [سياسة بيانات المستخدم لخدمات Google API](https://developers.google.com/terms/api-services-user-data-policy)، بما في ذلك متطلبات الاستخدام المحدود (Limited Use).
 
-**Disconnecting and deleting**
+**قطع الاتصال والحذف**
 
-- You can sign out of Google inside the App at any time. This disconnects the App from your Drive.
-- You can revoke the App's access at any time at https://myaccount.google.com/permissions
-- Backup files remain in your Google Drive until you delete them. You can delete them from inside the App or directly from the `HappyFatora_Backups` folder in Google Drive.
+- يمكنك تسجيل الخروج من Google داخل التطبيق في أي وقت، وهذا يفصل التطبيق عن Drive الخاص بك.
+- يمكنك إلغاء صلاحيات التطبيق في أي وقت من: https://myaccount.google.com/permissions
+- تبقى ملفات النسخ الاحتياطي في Google Drive الخاص بك حتى تحذفها. يمكنك حذفها من داخل التطبيق أو مباشرة من مجلد `HappyFatora_Backups` في Google Drive.
 
-**Security note.** Backup files uploaded to your Google Drive are protected by your Google account's security. You are responsible for keeping your Google account secure.
+**ملاحظة أمنية.** ملفات النسخ الاحتياطي المرفوعة إلى Google Drive الخاص بك محمية بإعدادات أمان حساب Google. وأنت مسؤول عن الحفاظ على أمان حسابك.
 
-## 5. Permissions
+## 5. الأذونات
 
-The App requests these Android permissions:
+يطلب التطبيق أذونات Android التالية:
 
-- **Camera:** to scan barcodes and QR codes
-- **Storage:** to save PDF invoices, backups, and exports
-- **Internet:** to show ads, perform cloud backup, and check for updates
-- **Notifications:** to send backup reminders
-- **Biometric:** for optional fingerprint or face authentication
+- **الكاميرا:** لمسح الباركود ورموز QR
+- **التخزين:** لحفظ فواتير PDF والنسخ الاحتياطية والملفات المصدّرة
+- **الإنترنت:** لعرض الإعلانات والنسخ الاحتياطي السحابي والتحقق من التحديثات
+- **الإشعارات:** لإرسال تذكيرات النسخ الاحتياطي
+- **القياسات الحيوية:** لمصادقة اختيارية بالبصمة أو الوجه
 
-Each permission is used only for its stated purpose. You can deny or revoke permissions at any time in your device settings. The App does not access your contacts, SMS, call logs, location, microphone, or other apps' data.
+يُستخدم كل إذن للغرض المعلن فقط. ويمكنك رفض الأذونات أو إلغاءها في أي وقت من إعدادات الجهاز. لا يصل التطبيق إلى جهات الاتصال أو الرسائل أو سجل المكالمات أو الموقع أو الميكروفون أو بيانات التطبيقات الأخرى.
 
-## 6. Advertisements
+## 6. الإعلانات
 
-The free version displays ads provided by Google AdMob (banner and interstitial ads). We do not control the content of these ads. AdMob may use your device's advertising identifier and other device information to serve ads, as described in [Google's Privacy Policy](https://policies.google.com/privacy).
+تعرض النسخة المجانية إعلانات مقدَّمة من Google AdMob (إعلانات البانر والإعلانات البينية). نحن لا نتحكم في محتوى هذه الإعلانات. وقد تستخدم AdMob معرّف الإعلانات في جهازك ومعلومات أخرى عن الجهاز لعرض الإعلانات، كما هو موضح في [سياسة خصوصية Google](https://policies.google.com/privacy).
 
-You can:
+يمكنك:
 
-- Reset your advertising ID or opt out of ad personalization in your device's Google settings
-- Remove ads by purchasing a premium license
+- إعادة ضبط معرّف الإعلانات أو إلغاء تخصيص الإعلانات من إعدادات Google في جهازك
+- إزالة الإعلانات بشراء ترخيص مميز
 
-## 7. Data Retention and Deletion
+## 7. الاحتفاظ بالبيانات وحذفها
 
-- **Local data:** stays on your device until you delete it or uninstall the App. Uninstalling the App deletes the local database.
-- **Cloud backups:** stay in your Google Drive until you delete them.
-- **Data on our servers:** we do not hold your business data, so there is nothing for us to delete on our side.
-- **Device and usage data** collected by third-party services (such as AdMob) is handled under those services' own policies and retention periods.
+- **البيانات المحلية:** تبقى على جهازك حتى تحذفها أو تُلغي تثبيت التطبيق. إلغاء التثبيت يحذف قاعدة البيانات المحلية.
+- **النسخ الاحتياطية السحابية:** تبقى في Google Drive الخاص بك حتى تحذفها.
+- **البيانات على خوادمنا:** لا نحتفظ ببيانات عملك، ولذلك لا يوجد ما نحذفه من جهتنا.
+- **بيانات الجهاز والاستخدام** التي تجمعها خدمات الأطراف الثالثة (مثل AdMob) تخضع لسياسات تلك الخدمات وفترات الاحتفاظ الخاصة بها.
 
-If you have questions about your data, contact us at the address in Section 16.
+إذا كانت لديك أسئلة عن بياناتك، تواصل معنا على العنوان المذكور في القسم 16.
 
-## 8. Your Rights
+## 8. حقوقك
 
-Depending on where you live, you may have the right to access, correct, delete, or export your data, and to object to certain processing. Because your business data lives on your device and your own Google Drive, you can exercise most of these rights directly. For anything else, contact us and we will respond within the time required by applicable law.
+بحسب مكان إقامتك، قد يكون لك الحق في الوصول إلى بياناتك أو تصحيحها أو حذفها أو تصديرها، وفي الاعتراض على بعض أنواع المعالجة. ولأن بيانات عملك موجودة على جهازك وعلى Google Drive الخاص بك، يمكنك ممارسة معظم هذه الحقوق بنفسك مباشرة. وفي أي أمر آخر، تواصل معنا وسنرد خلال المدة التي يفرضها القانون المعمول به.
 
-## 9. User Conduct and Acceptable Use
+## 9. سلوك المستخدم والاستخدام المقبول
 
-You agree to use the App only for lawful purposes and in compliance with tax and accounting regulations, consumer protection laws, and data protection laws that apply to you.
+توافق على استخدام التطبيق لأغراض قانونية فقط وبما يتوافق مع لوائح الضرائب والمحاسبة، وقوانين حماية المستهلك، وقوانين حماية البيانات المنطبقة عليك.
 
-You must not use the App to:
+لا يجوز لك استخدام التطبيق من أجل:
 
-- Generate fraudulent invoices
-- Evade taxes or commit financial fraud
-- Distribute malware
-- Violate any law or regulation
+- إنشاء فواتير احتيالية
+- التهرب من الضرائب أو ارتكاب احتيال مالي
+- توزيع البرامج الضارة
+- مخالفة أي قانون أو لائحة
 
-You are solely responsible for:
+أنت وحدك المسؤول عن:
 
-- Making sure your invoices comply with local regulations
-- Collecting and remitting applicable taxes
-- Keeping accurate financial records
-- Obtaining any consent required to store your own customers' and suppliers' personal data
+- التأكد من توافق فواتيرك مع اللوائح المحلية
+- جمع الضرائب المطبّقة وتوريدها
+- الحفاظ على سجلات مالية دقيقة
+- الحصول على أي موافقة مطلوبة لتخزين البيانات الشخصية لعملائك وموردينك
 
-## 10. Intellectual Property
+## 10. الملكية الفكرية
 
-Happy Fatora and its content are owned by the developer and protected by copyright and trademark laws.
+تطبيق هابي فاتورة ومحتواه مملوكان للمطوّر ومحميان بموجب قوانين حقوق النشر والعلامات التجارية.
 
-You receive a limited, non-exclusive, non-transferable, revocable license to use the App for personal or commercial business purposes.
+تحصل على ترخيص محدود وغير حصري وغير قابل للتحويل وقابل للإلغاء لاستخدام التطبيق لأغراض العمل الشخصية أو التجارية.
 
-You may not:
+لا يجوز لك:
 
-- Copy, modify, or reverse-engineer the App
-- Distribute, sell, or sublicense the App
-- Remove copyright notices
-- Extract the source code
+- نسخ التطبيق أو تعديله أو إجراء هندسة عكسية له
+- توزيع التطبيق أو بيعه أو ترخيصه من الباطن
+- إزالة إشعارات حقوق النشر
+- استخراج الكود المصدري
 
-You keep full ownership of all business data you enter into the App.
+وتحتفظ بالملكية الكاملة لجميع بيانات العمل التي تدخلها في التطبيق.
 
-## 11. Licensing and Activation
+## 11. الترخيص والتفعيل
 
-The App may be offered as:
+قد يُقدَّم التطبيق بالصور التالية:
 
-- **Free version:** limited features with ads
-- **Premium version:** full features with a license
-- **Trial version:** full features for a limited time
+- **نسخة مجانية:** ميزات محدودة مع إعلانات
+- **نسخة مميزة:** ميزات كاملة بترخيص
+- **نسخة تجريبية:** ميزات كاملة لفترة محدودة
 
-Licenses are tied to your device (one license for one device), are non-refundable after use except as stated in Section 12, and cannot be transferred without authorization.
+التراخيص مرتبطة بجهازك (ترخيص واحد لجهاز واحد)، وغير قابلة للاسترداد بعد الاستخدام إلا وفق ما هو مذكور في القسم 12، ولا يجوز نقلها دون تصريح.
 
-## 12. Payments and Refunds
+## 12. المدفوعات والاستردادات
 
-Premium licenses may be purchased through:
+يمكن شراء التراخيص المميزة من خلال:
 
-- Google Play (in-app purchase)
-- Direct license purchase (where available)
+- Google Play (شراء داخل التطبيق)
+- شراء ترخيص مباشر (حيثما كان متاحاً)
 
-**Refunds**
+**الاسترداد**
 
-- Google Play purchases are subject to Google Play's refund policy.
-- Direct purchases are evaluated case by case within 14 days.
-- There are no refunds for used license keys or after the refund period, except where the law requires otherwise.
+- مشتريات Google Play تخضع لسياسة الاسترداد في Google Play.
+- المشتريات المباشرة يتم تقييمها حالة بحالة خلال 14 يوماً.
+- لا استرداد لمفاتيح الترخيص المستخدمة أو بعد انتهاء فترة الاسترداد، إلا إذا اقتضى القانون خلاف ذلك.
 
-## 13. Third-Party Services
+## 13. خدمات الأطراف الثالثة
 
-The App uses:
+يستخدم التطبيق:
 
-- Google Play Services
-- Google AdMob (ads)
-- Google Drive API (optional cloud backup)
+- خدمات Google Play
+- Google AdMob (الإعلانات)
+- Google Drive API (النسخ الاحتياطي السحابي الاختياري)
 - Google Fonts
 
-These services have their own terms and privacy policies. We are not responsible for their practices.
+لهذه الخدمات شروطها وسياسات خصوصيتها الخاصة، ونحن غير مسؤولين عن ممارساتها.
 
-## 14. Disclaimers and Limitation of Liability
+## 14. إخلاء المسؤولية وحدود المسؤولية
 
-THE APP IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND.
+يُقدَّم التطبيق "كما هو" دون أي ضمانات من أي نوع.
 
-We do not guarantee that the App will meet your specific requirements, will always be available, will be free of errors, or that data will never be lost.
+نحن لا نضمن أن يلبي التطبيق متطلباتك المحددة، أو أن يكون متاحاً دائماً، أو أن يخلو من الأخطاء، أو ألا تُفقد البيانات أبداً.
 
-To the maximum extent permitted by law, we are not liable for indirect, consequential, or punitive damages, loss of profits or business opportunities, loss or corruption of data, or business interruption. Our total liability will not exceed the amount you paid for the App license (if any) in the 12 months before the claim.
+إلى أقصى حد يسمح به القانون، لن نكون مسؤولين عن الأضرار غير المباشرة أو التبعية أو العقابية، أو خسارة الأرباح أو الفرص التجارية، أو فقدان البيانات أو تلفها، أو انقطاع الأعمال. ولن تتجاوز مسؤوليتنا الإجمالية المبلغ الذي دفعته مقابل ترخيص التطبيق (إن وُجد) خلال الـ 12 شهراً السابقة للمطالبة.
 
-The App does not provide legal, tax, or accounting advice.
+لا يقدّم التطبيق مشورة قانونية أو ضريبية أو محاسبية.
 
-## 15. Backup Responsibility and Data Loss
+## 15. مسؤولية النسخ الاحتياطي وفقدان البيانات
 
-You are responsible for backing up your data. We strongly recommend that you:
+أنت مسؤول عن أخذ نسخ احتياطية من بياناتك. ونوصيك بشدة بـ:
 
-- Create regular local backups
-- Enable cloud backup to your Google Drive
-- Export important data periodically
+- إنشاء نسخ احتياطية محلية بانتظام
+- تفعيل النسخ الاحتياطي السحابي على Google Drive الخاص بك
+- تصدير البيانات المهمة بشكل دوري
 
-We are not liable for data loss caused by device failure, damage, or theft, user error such as accidental deletion, operating system issues, or failures of third-party services. Nothing in this section limits liability that cannot be limited by law.
+نحن غير مسؤولين عن فقدان البيانات بسبب تعطل الجهاز أو تلفه أو سرقته، أو خطأ المستخدم مثل الحذف العرضي، أو مشاكل نظام التشغيل، أو فشل خدمات الأطراف الثالثة. ولا يحدّ هذا القسم من أي مسؤولية لا يجوز للقانون تقييدها.
 
-## 16. Contact Us
+## 16. تواصل معنا
 
-For questions, privacy requests, or concerns:
+للأسئلة أو طلبات الخصوصية أو الملاحظات:
 
-- **Developer:** Nawafez Systems for Software Solutions
-- **Email:** info@nawafezsystems.com
-- **Website:** https://www.nawafezsystems.com
-- **In the App:** Settings > Contact Us
+- **المطوّر:** نوافذ سيستمز .. لانظمة البرمجيات
+- **البريد الإلكتروني:** info@nawafezsystems.com
+- **الموقع الإلكتروني:** https://www.nawafezsystems.com
+- **داخل التطبيق:** الإعدادات > اتصل بنا
 
-We aim to respond within 48 hours.
+نهدف إلى الرد خلال 48 ساعة.
 
-## 17. Children's Privacy
+## 17. خصوصية الأطفال
 
-The App is a business tool intended for adults aged 18 and over. It is not directed to children, and we do not knowingly collect personal data from children. If you believe a child has provided us data, contact us and we will take appropriate steps.
+التطبيق أداة عمل مخصصة للبالغين الذين تبلغ أعمارهم 18 عاماً فأكثر. وهو غير موجّه للأطفال، ولا نجمع عن علم بيانات شخصية من الأطفال. إذا كنت تعتقد أن طفلاً قدّم لنا بيانات، تواصل معنا وسنتخذ الإجراء المناسب.
 
-## 18. Termination
+## 18. الإنهاء
 
-You may stop using the App at any time by uninstalling it. We may suspend or end your access if you violate these Terms or engage in fraudulent activity.
+يمكنك التوقف عن استخدام التطبيق في أي وقت بإلغاء تثبيته. وقد نعلّق وصولك أو ننهيه إذا خالفت هذه الشروط أو انخرطت في نشاط احتيالي.
 
-When access ends, your license is revoked, local data stays on your device until you uninstall the App, and cloud backups stay in your Google Drive until you delete them.
+عند انتهاء الوصول يُلغى ترخيصك، وتبقى البيانات المحلية على جهازك حتى تُلغي تثبيت التطبيق، وتبقى النسخ الاحتياطية السحابية في Google Drive الخاص بك حتى تحذفها.
 
-## 19. Updates and Changes to the App
+## 19. التحديثات والتغييرات على التطبيق
 
-We may release updates to fix bugs, add features, or improve security. We may modify or discontinue features, and we may introduce fees for features that were previously free, with prior notice.
+قد نصدر تحديثات لإصلاح الأخطاء أو إضافة ميزات أو تحسين الأمان. وقد نعدّل أي ميزة أو نوقفها، وقد نفرض رسوماً على ميزات كانت مجانية سابقاً، وذلك بإشعار مسبق.
 
-## 20. Governing Law and Disputes
+## 20. القانون الحاكم وحل النزاعات
 
-These Terms are governed by the laws of **[Your Country]**. Before filing a formal dispute, please contact us so we can try to resolve it informally.
+تخضع هذه الشروط لقوانين **[بلدك]**. وقبل تقديم أي نزاع رسمي، يرجى التواصل معنا لمحاولة حل المشكلة ودياً.
 
-## 21. Acknowledgment
+## 21. الإقرار
 
-By using Happy Fatora, you confirm that you have read and understood these Terms and Privacy Policy, that you agree to be bound by them, and that you will comply with all applicable laws.
+باستخدامك تطبيق هابي فاتورة، فإنك تقر بأنك قرأت هذه الشروط وسياسة الخصوصية وفهمتها، وتوافق على الالتزام بها، وتتعهد بالالتزام بجميع القوانين المعمول بها.
 
 ---
 
-© 2026 Happy Fatora. All rights reserved.
+© 2026 هابي فاتورة. جميع الحقوق محفوظة.
+
