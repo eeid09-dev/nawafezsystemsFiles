@@ -99,3 +99,7 @@ body{font-family:Cairo,"Segoe UI",Tahoma,system-ui,sans-serif}
 footer .flinks a{margin-inline:.5rem}
 footer .tel{direction:ltr;unicode-bidi:isolate;display:inline-block}
 h3.h5{font-weight:700}
+.dropdown-menu-end[data-bs-popper] {
+    left: 0;
+    right: auto;
+
